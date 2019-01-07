@@ -46,10 +46,10 @@ app.use(function(req, res, next) {
 	});
 });
 
-var server = app.listen(8078, function () {
+var server = app.listen(8080, function () {
 	var host = '';
 	var port = '';
-	console.log(8078);
+	console.log(8080);
 	console.log({
     host            : process.env.MYSQL_HOST,
     user            : process.env.MYSQL_USER,
